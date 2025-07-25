@@ -58,10 +58,11 @@ Run using the command line:
 python Memory_Game.py
 
 ```
-## 4️⃣ Build .exe (Optional)
+## 4️⃣ Build .exe (Optional):
+#### Open your command prompt or terminal and run:
 ```
 pip install pyinstaller
-pyinstaller --onefile --windowed MemoryGame.py
+pyinstaller --onefile --windowed --add-data "cards.jpg;." --add-data "flip.mp3;." --add-data "match.mp3;." Memory_Game.py
 ```
 
 ## 🛠️ Features in Detail
