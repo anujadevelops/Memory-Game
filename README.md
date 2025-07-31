@@ -34,18 +34,20 @@
 
 ## 💻 Installation
 ## 1️⃣ Clone the repository:
-```
 ✅ 1. Requirements:
+```
 - Python 3.7+
 - PySide6
+```
 Install via pip:
-```bash
+```
 pip install PySide6
+```
 ---
 
 ✅ 2. Download the Project:
-- Clone this repository using Git:
-```bash
+Clone this repository using Git:
+```
 git clone https://github.com/anujadevelops/Memory-Game.git
 ```
 ## 2️⃣ Navigate to the project directory:
@@ -53,15 +55,16 @@ git clone https://github.com/anujadevelops/Memory-Game.git
 cd Memory-Game
 ```
 ## 3️⃣ Run the application:
-```
 Run using the command line:
+```
 python Memory_Game.py
-
 ```
 ## 4️⃣ Build .exe (Optional):
-#### Open your command prompt or terminal and run:
+Open your command prompt or terminal and run:
 ```
 pip install pyinstaller
+```
+```
 pyinstaller --onefile --windowed --add-data "cards.jpg;." --add-data "flip.mp3;." --add-data "match.mp3;." Memory_Game.py
 ```
 
